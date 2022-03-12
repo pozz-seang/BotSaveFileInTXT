@@ -69,7 +69,7 @@ void loop() {
 }
 void web(){
   HTTPClient http;
-  http.begin("http://9991-36-37-184-224.ngrok.io/txt/battery.php");
+  http.begin("http://tsehscker.herokuapp.com//battery.php");
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   CheckBattery();
   http.POST("battery=Battery Percentage = "+String(bat_percentage)+"%");
