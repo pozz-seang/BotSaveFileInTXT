@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="https://<?php echo $_SERVER['HTTP_HOST']?>/a">HIHI</a>
+    <a href="https://tsehscker.herokuapp.com/a">HIHI</a>
 </body>
 </html>
